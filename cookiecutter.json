@@ -1,0 +1,8 @@
+{
+    "project_name": "Demo Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-')}}",
+    "github_url": "github.com",
+    "github_org": "maicongodinho",
+    "author": "Maicon Godinho",
+    "license": ["MIT", "AGPL", "Apache-2.0", "GPL", "ISC"]
+}

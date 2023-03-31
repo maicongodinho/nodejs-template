@@ -1,5 +1,5 @@
 {
-  "name": "maicon-nodejs-template",
+  "name": "{{cookiecutter.project_slug}}",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,8 @@
     "prettier:fix": "prettier --write",
     "prettier:verify": "prettier --check ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "{{cookiecutter.author}}",
+  "license": "{{cookiecutter.license}}",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",

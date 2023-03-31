@@ -1,4 +1,4 @@
-const { dummy } = require("../src/dummy");
+const { dummy } = require("../src");
 
 describe("Validate the dummy", () => {
   test('it should return "this is a dummy"', () => {
